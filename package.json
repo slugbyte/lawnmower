@@ -1,10 +1,13 @@
 {
-  "name": "lawnmower",
+  "name": "@slugbyte/lawnmower",
   "version": "1.0.0",
   "description": "A cli for mowing lawnjunk.",
   "main": "src/index.js",
   "scripts": {
     "mow": "node src/index.js"
+  },
+  "bin": {
+    "lawnmower": "src/index.js"
   },
   "keywords": [
     "lawnmower",

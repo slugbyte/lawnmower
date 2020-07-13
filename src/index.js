@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const github = require('octonode').client(process.env.GITHUB_ACCESS_TOKEN)
 
 const fetchGrass = async () => {
