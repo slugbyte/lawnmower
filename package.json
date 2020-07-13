@@ -1,0 +1,15 @@
+{
+  "name": "lawnmower",
+  "version": "1.0.0",
+  "description": "Archive the repositorys in lawnjunk.",
+  "main": "src/index.js",
+  "scripts": {
+    "mow": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "octonode": "^0.9.5"
+  }
+}
